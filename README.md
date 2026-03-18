@@ -2,27 +2,42 @@
 
 > 黄颖老师出品 · 将模糊想法转化为专业级 Prompt PRD
 
-## 一键安装
+## 兼容平台
 
-### macOS / Linux
+| 平台 | 支持 |
+|------|:----:|
+| OpenClaw | ✅ |
+| WorkBuddy | ✅ |
+| LobsterAI | ✅ |
+| ArkClaw | ✅ |
+| KimiClaw | ✅ |
+| 其他支持 SKILL.md 的平台 | ✅ |
+
+## 安装方式
+
+### 方式一：一键脚本
+
+macOS / Linux：
 ```bash
 curl -sL https://raw.githubusercontent.com/huangluckybao-lab/titi-prompt-coach/main/install.sh | bash
 ```
 
-### Windows（PowerShell）
+Windows（PowerShell）：
 ```powershell
 irm https://raw.githubusercontent.com/huangluckybao-lab/titi-prompt-coach/main/install.ps1 | iex
 ```
 
-安装完成后重启：
-```bash
-openclaw gateway restart
-```
+安装完成后重启你的 AI 助手平台即可生效。
 
-### ClawHub
+### 方式二：ClawHub（推荐）
+
 ```bash
 clawhub install huangluckybao-lab/titi-prompt-coach
 ```
+
+### 方式三：手动安装
+
+将本文件夹放入你的 AI 助手平台的 `skills/` 目录，重启平台即可。
 
 ## 功能
 
